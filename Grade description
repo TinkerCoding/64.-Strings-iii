@@ -1,0 +1,6 @@
+/**
+* @param {number} grade
+* @param {number} highest
+*/
+function getGradeDescription(grade, highest) {
+return `You got ${grade} as a grade. That is ${highest - grade} points less than the highest grade. If you had studied harder, you could have gotten ${grade + 3}.`}
